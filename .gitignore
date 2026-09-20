@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+
+# Model weights (auto-downloads on first run)
+yolov8n.pt
+
+# Large video files — mention in README, don't push to GitHub
+sample.mp4
+annotated_*.mp4
+
+# Generated data (recreated by running detect.py / track.py)
+detections_log.csv
+movement_history.csv
